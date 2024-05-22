@@ -147,9 +147,12 @@ La estructura de ficheros debería ser la siguiente:
 
 ## Webs para probar
 
-- **Pruebas de API**: [reqres.in](https://reqres.in/)
-- **Pruebas de API**: [restful-booker](https://restful-booker.herokuapp.com/)
-- **Pruebas de API**: [jsonplaceholder](https://jsonplaceholder.typicode.com)
-- **Pruebas de UI**:  [demoblaze] (https://www.demoblaze.com/index.html)
-- **Pruebas de UI**:  [automationexercise](https://automationexercise.com/)
-- **Pruebas de UI**:  [commitquality](https://commitquality.com/)
+**Pruebas de API**: 
+- [reqres.in](https://reqres.in/)
+- [restful-booker](https://restful-booker.herokuapp.com/)
+- [jsonplaceholder](https://jsonplaceholder.typicode.com)
+
+**Pruebas de UI**:  
+- [demoblaze](https://www.demoblaze.com/index.html)
+- [automationexercise](https://automationexercise.com/)
+- [commitquality](https://commitquality.com/)
