@@ -1,5 +1,3 @@
-Claro, aquí tienes un documento en formato Markdown que explica BDD, el formato Given-When-Then y el lenguaje Gherkin, como un anexo para un curso sobre el Karate Testing Framework:
-
 Introducción a BDD, Given-When-Then y Gherkin
 
 ## 1. ¿Qué es BDD?
@@ -59,6 +57,36 @@ Feature: User Authentication
     And the user enters the password "wrong_password"
     Then an error message "Invalid username or password" should be displayed
 ```
+### Role-Feature-Reason:
+El enfoque de 'Role-Feature-Reason' es un patrón utilizado en el desarrollo dirigido por comportamiento (BDD) para proporcionar un contexto claro y comprensible de las funcionalidades desde la perspectiva del usuario. Este patrón se utiliza para escribir la sección de características (features) en Gherkin, proporcionando una descripción estructurada y lógica del objetivo de la funcionalidad. La estructura 'Role-Feature-Reason' incluye tres elementos clave:
+
+1. **Role (Rol)**: Define quién es el usuario o actor que interactúa con la funcionalidad. Esto puede ser un tipo específico de usuario, como un "administrador", "cliente" o "usuario registrado". Identificar el rol ayuda a enfocar la funcionalidad en las necesidades y expectativas específicas de ese tipo de usuario.
+
+2. **Feature (Funcionalidad)**: Describe la funcionalidad específica que se está implementando. Es una declaración breve y clara de lo que se pretende lograr. Esta parte resume la capacidad o el servicio que se está proporcionando al usuario.
+
+3. **Reason (Razón)**: Explica por qué la funcionalidad es importante o cuál es el valor que aporta al usuario o al negocio. Este componente aclara el propósito y los beneficios de la funcionalidad, ayudando a justificar su implementación.
+
+### Ejemplo de Role-Feature-Reason en Gherkin
+
+```gherkin
+Feature: User Login
+
+  As a registered user
+  I want to log into the system
+  So that I can access my personal dashboard
+```
+
+#### Desglose del ejemplo:
+
+- **Role (Rol)**: "As a registered user" (Como usuario registrado) – Aquí se identifica quién se beneficiará de la funcionalidad.
+- **Feature (Funcionalidad)**: "I want to log into the system" (Quiero iniciar sesión en el sistema) – Esto describe la funcionalidad específica que se está proporcionando.
+- **Reason (Razón)**: "So that I can access my personal dashboard" (Para poder acceder a mi panel personal) – Esta parte explica por qué es importante la funcionalidad y qué valor aporta.
+
+### Relación con BDD
+
+En BDD, la comunicación clara entre los diferentes miembros del equipo (desarrolladores, testers, analistas de negocio, etc.) es crucial. Utilizar el enfoque 'Role-Feature-Reason' facilita esta comunicación al asegurar que todos entienden quién necesita la funcionalidad, qué se está construyendo y por qué es importante. Esto mejora la colaboración y garantiza que las funcionalidades desarrolladas estén alineadas con las necesidades del usuario y los objetivos del negocio.
+
+Al utilizar 'Role-Feature-Reason', se puede asegurar que las historias de usuario y las especificaciones de características sean claras, concisas y centradas en el valor, lo cual es fundamental para el éxito del desarrollo dirigido por comportamiento.
 
 ## 4. Uso de Gherkin en Karate
 
