@@ -5,9 +5,9 @@ Karate es una potente herramienta de prueba automatizada que combina capacidades
 ## Índice
 
 1. Instalación de Karate, Java, Maven y configuración inicial del framework. (45 min)
-2. Qué es Gherkin? Introducción al BDD
-3. Automatización de tests de API y ejercicio prático
-4. Automatización de test de web y ejercicio práctico
+2. Qué es Gherkin? Introducción al BDD (30 min)
+3. Automatización de tests de API y ejercicio prático (45 min)
+4. Automatización de test de web y ejercicio práctico (45 min)
 
 ## Características de Karate
 
