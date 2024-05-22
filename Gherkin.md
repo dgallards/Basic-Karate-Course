@@ -76,12 +76,6 @@ Feature: User Login
   So that I can access my personal dashboard
 ```
 
-#### Desglose del ejemplo:
-
-- **Role (Rol)**: "As a registered user" (Como usuario registrado) – Aquí se identifica quién se beneficiará de la funcionalidad.
-- **Feature (Funcionalidad)**: "I want to log into the system" (Quiero iniciar sesión en el sistema) – Esto describe la funcionalidad específica que se está proporcionando.
-- **Reason (Razón)**: "So that I can access my personal dashboard" (Para poder acceder a mi panel personal) – Esta parte explica por qué es importante la funcionalidad y qué valor aporta.
-
 ### Relación con BDD
 
 En BDD, la comunicación clara entre los diferentes miembros del equipo (desarrolladores, testers, analistas de negocio, etc.) es crucial. Utilizar el enfoque 'Role-Feature-Reason' facilita esta comunicación al asegurar que todos entienden quién necesita la funcionalidad, qué se está construyendo y por qué es importante. Esto mejora la colaboración y garantiza que las funcionalidades desarrolladas estén alineadas con las necesidades del usuario y los objetivos del negocio.
@@ -126,10 +120,3 @@ Feature: Karate API Test Example
 ```
 
 Karate proporciona una forma intuitiva y eficiente de escribir y ejecutar pruebas, manteniendo la claridad y la colaboración que promueve BDD.
-
----
-
-Este documento debe proporcionarte una base sólida sobre BDD, el formato Given-When-Then y el lenguaje Gherkin, así como su aplicación en el Karate Testing Framework. ¡Esperamos que esta información te sea útil en tu curso!
-```
-
-Este documento cubre los conceptos básicos de BDD, Given-When-Then y Gherkin, y proporciona ejemplos prácticos de cómo se utilizan en el contexto del Karate Testing Framework.
