@@ -1,8 +1,13 @@
 # Proyecto: Instalación de la herramienta Karate
 
-## Descripción
-
 Karate es una potente herramienta de prueba automatizada que combina capacidades de prueba de API y UI de navegador en una sola solución. Diseñada para facilitar el desarrollo y la ejecución de pruebas, Karate permite a los desarrolladores y testers validar sus aplicaciones de manera eficiente.
+
+## Índice
+
+1. Instalación de Karate, Java, Maven y configuración inicial del framework. (45 min)
+2. Qué es Gherkin? Introducción al BDD
+3. Automatización de tests de API y ejercicio prático
+4. Automatización de test de web y ejercicio práctico
 
 ## Características de Karate
 
@@ -142,8 +147,8 @@ La estructura de ficheros debería ser la siguiente:
 - [Documentación oficial de Karate](https://github.com/intuit/karate)
 - [Guía de inicio rápido de Karate](https://github.com/intuit/karate#getting-started)
 - [Ejemplos y tutoriales](https://github.com/intuit/karate/tree/master/karate-demo)
-- [Documentacón de Karate API](https://github.com/karatelabs/karate?tab=readme-ov-file#syntax-guide)
-- [Documentacón de Karate UI](https://karatelabs.github.io/karate/karate-core/)
+- [Documentación de Karate API](https://karatelabs.github.io/karate/)
+- [Documentación de Karate UI](https://karatelabs.github.io/karate/karate-core/)
 
 ## Webs para probar
 
