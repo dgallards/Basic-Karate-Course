@@ -19,6 +19,15 @@ El formato **Given-When-Then** es una estructura común utilizada en BDD para de
 - **When (Cuando)**: Describe la acción o evento que desencadena el comportamiento.
 - **Then (Entonces)**: Describe el resultado esperado o la postcondición después de que la acción se haya completado.
 
+### Before gherkin:
+
+![before gherkin](https://www.guru99.com/images/tensorflow/082918_1505_WhatisGherk1.png)
+
+### After gherkin:
+
+![after gherkin](https://www.guru99.com/images/tensorflow/082918_1505_WhatisGherk2.png)
+
+
 ### Ejemplo:
 ```gherkin
 Feature: Login Functionality
@@ -36,6 +45,7 @@ Feature: Login Functionality
 ### Elementos de Gherkin:
 - **Feature**: Una funcionalidad o característica del sistema.
 - **Scenario**: Un ejemplo concreto de cómo debería comportarse una característica en un caso específico.
+- **Background**: Añade contexto al escenario. Contiene pasos que han de ejecutarse antes del escenario
 - **Given-When-Then**: Las palabras clave que estructuran los pasos de cada escenario.
 - **And, But**: Palabras clave adicionales para encadenar múltiples condiciones o acciones.
 
@@ -66,7 +76,7 @@ El enfoque de 'Role-Feature-Reason' es un patrón utilizado en el desarrollo dir
 
 3. **Reason (Razón)**: Explica por qué la funcionalidad es importante o cuál es el valor que aporta al usuario o al negocio. Este componente aclara el propósito y los beneficios de la funcionalidad, ayudando a justificar su implementación.
 
-### Ejemplo de Role-Feature-Reason en Gherkin
+### Ejemplo de Role-Feature-Reason
 
 ```gherkin
 Feature: User Login
