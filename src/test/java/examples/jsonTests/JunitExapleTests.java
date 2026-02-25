@@ -1,4 +1,4 @@
-package examples.jsontests;
+package examples.jsonTests;
 
 import com.intuit.karate.junit5.Karate;
 

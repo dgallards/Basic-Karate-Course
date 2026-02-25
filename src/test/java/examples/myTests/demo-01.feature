@@ -1,3 +1,4 @@
+@demo
 Feature: browser automation 1
 
   Background:

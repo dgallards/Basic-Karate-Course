@@ -45,8 +45,9 @@ Antes de instalar Karate, asegúrate de tener instalados los siguientes componen
 ### Paso 2: Instalar Maven
 
 1. Descarga e instala la última versión de Maven desde la [página oficial de Apache Maven](https://maven.apache.org/download.cgi).
-2. Configura la variable de entorno `MAVEN_HOME` apuntando al directorio de instalación de Maven y añade `MAVEN_HOME/bin` a tu variable `PATH`.
-3. Verifica la instalación de Maven ejecutando el siguiente comando en tu terminal o línea de comandos:
+2. Configura la variable de entorno `MAVEN_HOME` apuntando al directorio de instalación de Maven 
+3. Configura la variable de entorno `%MAVEN_HOME%/bin` a tu variable `PATH`.
+4. Verifica la instalación de Maven ejecutando el siguiente comando en tu terminal o línea de comandos:
 
    ```sh
    mvn -version

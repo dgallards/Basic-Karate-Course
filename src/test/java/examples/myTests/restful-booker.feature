@@ -1,3 +1,4 @@
+@restful
 Feature: API test using RESTfulBooker application
 
 Background:
