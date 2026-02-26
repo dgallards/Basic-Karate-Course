@@ -10,8 +10,8 @@ class ExamplesTest {
     @Test
     void testParallel() {
         Results results = //Runner.path("classpath:examples/myTests")
-                          Runner.path("classpath:examples/myTests/demo-01.feature")
-                          //Runner.path("classpath:examples/myTests").tags("@restful")
+                          //Runner.path("classpath:examples/myTests/demo-01.feature")
+                          Runner.path("classpath:examples/myTests").tags("@restful")
                 //.outputCucumberJson(true)
                 .parallel(5);
         assertEquals(0, results.getFailCount(), results.getErrorMessages());
